@@ -1,0 +1,41 @@
+﻿@model Library_Hutech.Models.ChangePasswordModel
+@{
+    ViewBag.Title = "Thay đổi mật khẩu";
+    Layout = "~/Views/Shared/_Login.cshtml";
+}
+
+@using (Html.BeginForm("ChangePassword", "ChangePassword", FormMethod.Post, new { @class = "login100-form validate-form" }))
+{
+    @Html.AntiForgeryToken()
+    <span class="login100-form-title">
+        Change Password
+    </span>
+
+    <div class="wrap-input100 validate-input">
+        @Html.PasswordFor(m => m.currentPassword, new { @class = "input100", @placeholder = "Mật khẩu cũ" })
+        <span class="focus-input100"></span>
+        <span class="symbol-input100">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+        </span>
+    </div>
+    <div class="wrap-input100 validate-input">
+        @Html.PasswordFor(m => m.newPassword, new { @class = "input100", @placeholder = "Mật khẩu mới" })
+        <span class="focus-input100"></span>
+        <span class="symbol-input100">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+        </span>
+    </div>
+    <div class="wrap-input100 validate-input">
+        @Html.PasswordFor(m => m.confirmPassword, new { @class = "input100", @placeholder = "Xác nhận mật khẩu" })
+        <span class="focus-input100"></span>
+        <span class="symbol-input100">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <div class="container-login100-form-btn">
+        <button type="submit" class="login100-form-btn">
+            Thay đổi mật khẩu
+        </button>
+    </div>
+}

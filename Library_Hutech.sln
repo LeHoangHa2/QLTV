@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_Hutech", "Library_Hutech\Library_Hutech.csproj", "{EE90E150-6041-443C-887E-21B5F6D08770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE90E150-6041-443C-887E-21B5F6D08770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE90E150-6041-443C-887E-21B5F6D08770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE90E150-6041-443C-887E-21B5F6D08770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE90E150-6041-443C-887E-21B5F6D08770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B165533A-76E6-4598-94DD-4CBB83DA9945}
+	EndGlobalSection
+EndGlobal
