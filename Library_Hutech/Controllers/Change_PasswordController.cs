@@ -10,7 +10,7 @@ namespace Library_Hutech.Controllers
 {
     public class ChangePasswordController : Controller
     {
-        private Model1 db = new Model1();
+        private THUVIENEntities2 db = new THUVIENEntities2();
 
         // GET: ChangePassword
         public ActionResult Index()

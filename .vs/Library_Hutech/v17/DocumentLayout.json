@@ -1,134 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\",
+  "WorkspaceRootPath": "D:\\Coding\\C-sharp\\QLTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|c:\\users\\84944\\onedrive\\desktop\\doan(backup)\\library_hutech\\library_hutech\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|D:\\Coding\\C-sharp\\QLTV\\library_hutech\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|d:\\coding\\c-sharp\\qltv\\library_hutech\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\shared\\_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\shared\\_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|d:\\coding\\c-sharp\\qltv\\library_hutech\\controllers\\loaisachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\loaisachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|c:\\users\\84944\\onedrive\\desktop\\doan(backup)\\library_hutech\\library_hutech\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|d:\\coding\\c-sharp\\qltv\\library_hutech\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|c:\\users\\84944\\onedrive\\desktop\\doan(backup)\\library_hutech\\library_hutech\\controllers\\nxbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\nxbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|d:\\coding\\c-sharp\\qltv\\library_hutech\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|c:\\users\\84944\\onedrive\\desktop\\doan(backup)\\library_hutech\\library_hutech\\models\\nxb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\models\\nxb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|c:\\users\\84944\\onedrive\\desktop\\doan(backup)\\library_hutech\\library_hutech\\models\\loaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\models\\loaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\shared\\_mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\shared\\_mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|c:\\users\\84944\\onedrive\\desktop\\doan(backup)\\library_hutech\\library_hutech\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\controllers\\change_passwordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\change_passwordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\changepassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\changepassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\controllers\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\tacgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\tacgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\tacgia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\tacgia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\tacgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\tacgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\sinhvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\sinhvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\controllers\\tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\controllers\\tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\tacgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\tacgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\library_hutech\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|d:\\coding\\c-sharp\\qltv\\library_hutech\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE90E150-6041-443C-887E-21B5F6D08770}|Library_Hutech\\Library_Hutech.csproj|solutionrelative:library_hutech\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,399 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SachController.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\SachController.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\SachController.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\SachController.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\SachController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDMAAAAXAAAA",
+              "DocumentIndex": 5,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "Library_Hutech\\Models\\Model1.Context.cs",
+              "ToolTip": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "Library_Hutech\\Models\\Model1.Context.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwB4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:59:27.206Z",
+              "WhenOpened": "2024-04-14T16:11:28.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Model1.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\Model1.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Models\\Model1.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\Model1.cs",
-              "RelativeToolTip": "Library_Hutech\\Models\\Model1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LoaiSachController.cs",
+              "DocumentMoniker": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Controllers\\LoaiSachController.cs",
+              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\LoaiSachController.cs",
+              "ToolTip": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Controllers\\LoaiSachController.cs",
+              "RelativeToolTip": "Library_Hutech\\Controllers\\LoaiSachController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:53:47.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NXB.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\NXB.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Models\\NXB.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\NXB.cs",
-              "RelativeToolTip": "Library_Hutech\\Models\\NXB.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:52:17.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoaiSach.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\LoaiSach.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Models\\LoaiSach.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\LoaiSach.cs",
-              "RelativeToolTip": "Library_Hutech\\Models\\LoaiSach.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:52:08.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Change_PasswordController.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\Change_PasswordController.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\Change_PasswordController.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\Change_PasswordController.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\Change_PasswordController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwC4AAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T06:52:32.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T09:08:07.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAYwIwAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:34:08.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Models\\User.cs",
-              "RelativeToolTip": "Library_Hutech\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T12:55:35.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:13:07.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Shared\\_Login.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\Shared\\_Login.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Shared\\_Login.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\Shared\\_Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:38:38.643Z",
+              "WhenOpened": "2024-04-14T16:11:20.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NXBController.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\NXBController.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\NXBController.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\NXBController.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\NXBController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:53:13.673Z",
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Library_Hutech\\Models\\Model1.edmx",
+              "ToolTip": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Library_Hutech\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-14T16:10:45.362Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Web.config",
+              "RelativeDocumentMoniker": "Library_Hutech\\Web.config",
+              "ToolTip": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Web.config",
+              "RelativeToolTip": "Library_Hutech\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-14T16:09:26.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\ChangePassword\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\ChangePassword\\Index.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\ChangePassword\\Index.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\ChangePassword\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Views\\Sach\\Details.cshtml",
+              "RelativeDocumentMoniker": "Library_Hutech\\Views\\Sach\\Details.cshtml",
+              "ToolTip": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Views\\Sach\\Details.cshtml",
+              "RelativeToolTip": "Library_Hutech\\Views\\Sach\\Details.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T07:05:05.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_MainMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Shared\\_MainMenu.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\Shared\\_MainMenu.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Shared\\_MainMenu.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\Shared\\_MainMenu.cshtml",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T07:09:58.415Z",
+              "WhenOpened": "2024-04-14T07:41:35.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChangePasswordModel.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\ChangePasswordModel.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\ChangePasswordModel.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\ChangePasswordModel.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\ChangePasswordModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "SachController.cs",
+              "DocumentMoniker": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Controllers\\SachController.cs",
+              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\SachController.cs",
+              "ToolTip": "D:\\Coding\\C-sharp\\QLTV\\Library_Hutech\\Controllers\\SachController.cs",
+              "RelativeToolTip": "Library_Hutech\\Controllers\\SachController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T07:24:05.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T06:50:13.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\TacGia\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Edit.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\TacGia\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:04:00.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\User\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Delete.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\User\\Delete.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAwwCUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:04:42.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:03:24.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\User\\Create.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\User\\Create.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBoAAABrAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:04:31.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Details.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\User\\Details.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Details.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\User\\Details.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:04:57.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAwHwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T13:37:11.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Assets\\css\\main.css",
-              "RelativeDocumentMoniker": "Library_Hutech\\Assets\\css\\main.css",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Assets\\css\\main.css",
-              "RelativeToolTip": "Library_Hutech\\Assets\\css\\main.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-07T06:12:33.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Assets\\css\\style.css",
-              "RelativeDocumentMoniker": "Library_Hutech\\Assets\\css\\style.css",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Assets\\css\\style.css",
-              "RelativeToolTip": "Library_Hutech\\Assets\\css\\style.css",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAAAMsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-07T06:23:01.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\User\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\User\\Edit.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\User\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBsAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:05:06.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\TacGia\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Delete.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\TacGia\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:03:54.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Details.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\TacGia\\Details.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Details.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\TacGia\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:03:57.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\SinhVien\\Details.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\SinhVien\\Details.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\SinhVien\\Details.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\SinhVien\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:02:32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\SinhVien\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\SinhVien\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\SinhVien\\Delete.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\SinhVien\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:02:31.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\SinhVien\\Create.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\SinhVien\\Create.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\SinhVien\\Create.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\SinhVien\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T13:02:28.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\TacGia\\Index.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\TacGia\\Index.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\TacGia\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T12:53:58.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Library_Hutech\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Library_Hutech\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T12:53:05.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TacGiaController.cs",
-              "DocumentMoniker": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\TacGiaController.cs",
-              "RelativeDocumentMoniker": "Library_Hutech\\Controllers\\TacGiaController.cs",
-              "ToolTip": "C:\\Users\\84944\\OneDrive\\Desktop\\doan(backup)\\Library_Hutech\\Library_Hutech\\Controllers\\TacGiaController.cs",
-              "RelativeToolTip": "Library_Hutech\\Controllers\\TacGiaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T12:59:36.941Z"
+              "WhenOpened": "2024-04-14T07:40:03.123Z",
+              "EditorCaption": ""
             }
           ]
         }

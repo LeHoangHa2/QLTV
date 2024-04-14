@@ -11,7 +11,7 @@ namespace Library_Hutech.Controllers
 {
     public class HomeController : Controller
     {
-        private Model1 _db = new Model1();
+        private THUVIENEntities2 _db = new THUVIENEntities2();
         // GET: Home
         public ActionResult Index()
         {

@@ -10,7 +10,7 @@
 <div>
     <h4>Sach</h4>
     <hr />
-    <dl class="dl-horizontal">
+    <dl class="dl-horizontal" style="float:left;">
         <dt>
             @Html.DisplayNameFor(model => model.LoaiSach1.MaLoaiSach)
         </dt>
@@ -108,6 +108,14 @@
         </dd>
 
     </dl>
+</div>
+
+<div style="float:right;">
+    @{
+       // var base64 = Convert.ToBase64String(Model.ImagePath);
+       // var imgSrc = string.Format(base64);
+    }
+ <img src="@ViewBag.ImageData" alt="jutsu book">
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |

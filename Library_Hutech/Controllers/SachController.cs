@@ -1,18 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using Library_Hutech.Models;
+using System;
+using System.Collections;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using Library_Hutech.Models;
 
 namespace Library_Hutech.Controllers
 {
     public class SachController : Controller
     {
-        private Model1 db = new Model1();
+        private THUVIENEntities2 db = new THUVIENEntities2();
 
         // GET: Sach
         public ActionResult Index()
@@ -33,7 +32,21 @@ namespace Library_Hutech.Controllers
             {
                 return HttpNotFound();
             }
-            return View(sach);
+            string imgPath = Server.MapPath(sach.ImagePath);
+            if (System.IO.File.Exists(imgPath))
+            {
+                byte[] byteData = System.IO.File.ReadAllBytes(imgPath);
+                string imreBase64Data = Convert.ToBase64String(byteData);
+                string imgDataURL = string.Format("data:image/png;base64,{0}", imreBase64Data);
+                ViewBag.ImageData = imgDataURL;
+                Console.WriteLine(imgDataURL);
+                return View(sach);
+            }
+            else
+            {
+                return View(sach);
+            }
+
         }
 
         // GET: Sach/Create

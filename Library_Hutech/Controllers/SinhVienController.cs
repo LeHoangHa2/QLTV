@@ -12,7 +12,7 @@ namespace Library_Hutech.Controllers
 {
     public class SinhVienController : Controller
     {
-        private Model1 db = new Model1();
+        private THUVIENEntities2 db = new THUVIENEntities2();
 
         // GET: SinhVien
         public ActionResult Index()

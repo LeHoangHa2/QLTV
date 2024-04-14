@@ -9,7 +9,7 @@ namespace Library_Hutech.Controllers
 {
     public class UserController : Controller
     {
-        private Model1 db = new Model1();
+        private THUVIENEntities2 db = new THUVIENEntities2();
 
         // GET: User
         public ActionResult Index()

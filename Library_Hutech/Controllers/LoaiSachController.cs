@@ -13,7 +13,7 @@ namespace Library_Hutech.Controllers
 {
     public class LoaiSachController : Controller
     {
-        private Model1 db = new Model1();
+        private THUVIENEntities2 db = new THUVIENEntities2();
 
         // GET: LoaiSach
         public ActionResult Index()
