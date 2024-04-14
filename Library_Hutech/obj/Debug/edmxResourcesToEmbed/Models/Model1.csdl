@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="THUVIENModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LoaiSach">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaLoaiSach" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TenLoaiSach" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Saches" Relationship="Self.FK_Sach_LoaiSach" FromRole="LoaiSach" ToRole="Sach" />
+  </EntityType>
+  <EntityType Name="NXB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNXB" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TenNXB" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <Property Name="DiaChi" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Saches" Relationship="Self.FK_Sach_NXB" FromRole="NXB" ToRole="Sach" />
+  </EntityType>
+  <EntityType Name="PhieuMuon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaMuon" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="NguoiMuon" Type="Int32" />
+    <Property Name="NgayMuon" Type="DateTime" Precision="3" />
+    <Property Name="NgayTra" Type="DateTime" Precision="3" />
+    <Property Name="HinhThuc" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <Property Name="SoNgayMuon" Type="Int32" />
+    <NavigationProperty Name="SinhVien" Relationship="Self.FK_PhieuMuon_SinhVien" FromRole="PhieuMuon" ToRole="SinhVien" />
+    <NavigationProperty Name="Saches" Relationship="Self.FK_Sach_PhieuMuon" FromRole="PhieuMuon" ToRole="Sach" />
+  </EntityType>
+  <EntityType Name="Sach">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TenSach" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiSach" Type="Int32" />
+    <Property Name="NamXB" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="NXB" Type="Int32" />
+    <Property Name="TacGia" Type="Int32" />
+    <Property Name="ViTri" Type="Int32" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="Muon" Type="Int32" />
+    <Property Name="NgonNgu" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="ImagePath" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="LoaiSach1" Relationship="Self.FK_Sach_LoaiSach" FromRole="Sach" ToRole="LoaiSach" />
+    <NavigationProperty Name="NXB1" Relationship="Self.FK_Sach_NXB" FromRole="Sach" ToRole="NXB" />
+    <NavigationProperty Name="PhieuMuon" Relationship="Self.FK_Sach_PhieuMuon" FromRole="Sach" ToRole="PhieuMuon" />
+    <NavigationProperty Name="TacGia1" Relationship="Self.FK_Sach_TacGia" FromRole="Sach" ToRole="TacGia" />
+    <NavigationProperty Name="ViTri1" Relationship="Self.FK_Sach_ViTri" FromRole="Sach" ToRole="ViTri" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="MaSV" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Lop" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <Property Name="HoTen" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PhieuMuons" Relationship="Self.FK_PhieuMuon_SinhVien" FromRole="SinhVien" ToRole="PhieuMuon" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TacGia">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaTacGia" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TenTacGia" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <Property Name="DiaChi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Saches" Relationship="Self.FK_Sach_TacGia" FromRole="TacGia" ToRole="Sach" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ViTri">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaViTri" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Ngan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Ke" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TimeUpdate" Type="DateTime" Precision="3" />
+    <Property Name="TimeCreate" Type="DateTime" Precision="3" />
+    <Property Name="Khu" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Saches" Relationship="Self.FK_Sach_ViTri" FromRole="ViTri" ToRole="Sach" />
+  </EntityType>
+  <Association Name="FK_Sach_LoaiSach">
+    <End Role="LoaiSach" Type="Self.LoaiSach" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiSach">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="LoaiSach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_NXB">
+    <End Role="NXB" Type="Self.NXB" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NXB">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="NXB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhieuMuon_SinhVien">
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="0..1" />
+    <End Role="PhieuMuon" Type="Self.PhieuMuon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PhieuMuon">
+        <PropertyRef Name="NguoiMuon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_PhieuMuon">
+    <End Role="PhieuMuon" Type="Self.PhieuMuon" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhieuMuon">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="Muon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_TacGia">
+    <End Role="TacGia" Type="Self.TacGia" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TacGia">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="TacGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_ViTri">
+    <End Role="ViTri" Type="Self.ViTri" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ViTri">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="ViTri" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="THUVIENEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LoaiSaches" EntityType="Self.LoaiSach" />
+    <EntitySet Name="NXBs" EntityType="Self.NXB" />
+    <EntitySet Name="PhieuMuons" EntityType="Self.PhieuMuon" />
+    <EntitySet Name="Saches" EntityType="Self.Sach" />
+    <EntitySet Name="SinhViens" EntityType="Self.SinhVien" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TacGias" EntityType="Self.TacGia" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="ViTris" EntityType="Self.ViTri" />
+    <AssociationSet Name="FK_Sach_LoaiSach" Association="Self.FK_Sach_LoaiSach">
+      <End Role="LoaiSach" EntitySet="LoaiSaches" />
+      <End Role="Sach" EntitySet="Saches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_NXB" Association="Self.FK_Sach_NXB">
+      <End Role="NXB" EntitySet="NXBs" />
+      <End Role="Sach" EntitySet="Saches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhieuMuon_SinhVien" Association="Self.FK_PhieuMuon_SinhVien">
+      <End Role="SinhVien" EntitySet="SinhViens" />
+      <End Role="PhieuMuon" EntitySet="PhieuMuons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_PhieuMuon" Association="Self.FK_Sach_PhieuMuon">
+      <End Role="PhieuMuon" EntitySet="PhieuMuons" />
+      <End Role="Sach" EntitySet="Saches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_TacGia" Association="Self.FK_Sach_TacGia">
+      <End Role="TacGia" EntitySet="TacGias" />
+      <End Role="Sach" EntitySet="Saches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_ViTri" Association="Self.FK_Sach_ViTri">
+      <End Role="ViTri" EntitySet="ViTris" />
+      <End Role="Sach" EntitySet="Saches" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

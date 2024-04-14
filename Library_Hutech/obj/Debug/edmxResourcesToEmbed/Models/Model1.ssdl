@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="THUVIENModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="LoaiSach">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaLoaiSach" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenLoaiSach" Type="nvarchar" MaxLength="200" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="TimeCreate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="NXB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaNXB" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenNXB" Type="nvarchar" MaxLength="150" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="TimeCreate" Type="datetime" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="PhieuMuon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaMuon" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NguoiMuon" Type="int" />
+    <Property Name="NgayMuon" Type="datetime" />
+    <Property Name="NgayTra" Type="datetime" />
+    <Property Name="HinhThuc" Type="nvarchar" MaxLength="150" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="TimeCreate" Type="datetime" />
+    <Property Name="SoNgayMuon" Type="int" />
+  </EntityType>
+  <EntityType Name="Sach">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaSach" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenSach" Type="nvarchar" MaxLength="150" />
+    <Property Name="LoaiSach" Type="int" />
+    <Property Name="NamXB" Type="nchar" MaxLength="10" />
+    <Property Name="NXB" Type="int" />
+    <Property Name="TacGia" Type="int" />
+    <Property Name="ViTri" Type="int" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="Muon" Type="int" />
+    <Property Name="NgonNgu" Type="nvarchar" MaxLength="150" />
+    <Property Name="TimeCreate" Type="datetime" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="MaSV" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Lop" Type="nvarchar" MaxLength="150" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="TimeCreate" Type="datetime" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TacGia">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaTacGia" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenTacGia" Type="nvarchar" MaxLength="150" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="TimeCreate" Type="datetime" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Username" Type="varchar" MaxLength="50" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="TimeCreate" Type="datetime" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ViTri">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaViTri" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Ngan" Type="nvarchar" MaxLength="150" />
+    <Property Name="Ke" Type="nvarchar" MaxLength="150" />
+    <Property Name="TimeUpdate" Type="datetime" />
+    <Property Name="TimeCreate" Type="datetime" />
+    <Property Name="Khu" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <Association Name="FK_PhieuMuon_SinhVien">
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="0..1" />
+    <End Role="PhieuMuon" Type="Self.PhieuMuon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PhieuMuon">
+        <PropertyRef Name="NguoiMuon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_LoaiSach">
+    <End Role="LoaiSach" Type="Self.LoaiSach" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiSach">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="LoaiSach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_NXB">
+    <End Role="NXB" Type="Self.NXB" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NXB">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="NXB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_PhieuMuon">
+    <End Role="PhieuMuon" Type="Self.PhieuMuon" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhieuMuon">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="Muon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_TacGia">
+    <End Role="TacGia" Type="Self.TacGia" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TacGia">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="TacGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sach_ViTri">
+    <End Role="ViTri" Type="Self.ViTri" Multiplicity="0..1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ViTri">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="ViTri" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="THUVIENModelStoreContainer">
+    <EntitySet Name="LoaiSach" EntityType="Self.LoaiSach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NXB" EntityType="Self.NXB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhieuMuon" EntityType="Self.PhieuMuon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sach" EntityType="Self.Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SinhVien" EntityType="Self.SinhVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TacGia" EntityType="Self.TacGia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ViTri" EntityType="Self.ViTri" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PhieuMuon_SinhVien" Association="Self.FK_PhieuMuon_SinhVien">
+      <End Role="SinhVien" EntitySet="SinhVien" />
+      <End Role="PhieuMuon" EntitySet="PhieuMuon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_LoaiSach" Association="Self.FK_Sach_LoaiSach">
+      <End Role="LoaiSach" EntitySet="LoaiSach" />
+      <End Role="Sach" EntitySet="Sach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_NXB" Association="Self.FK_Sach_NXB">
+      <End Role="NXB" EntitySet="NXB" />
+      <End Role="Sach" EntitySet="Sach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_PhieuMuon" Association="Self.FK_Sach_PhieuMuon">
+      <End Role="PhieuMuon" EntitySet="PhieuMuon" />
+      <End Role="Sach" EntitySet="Sach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_TacGia" Association="Self.FK_Sach_TacGia">
+      <End Role="TacGia" EntitySet="TacGia" />
+      <End Role="Sach" EntitySet="Sach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sach_ViTri" Association="Self.FK_Sach_ViTri">
+      <End Role="ViTri" EntitySet="ViTri" />
+      <End Role="Sach" EntitySet="Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
