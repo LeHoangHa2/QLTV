@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Library_Hutech.Controllers
@@ -39,7 +40,6 @@ namespace Library_Hutech.Controllers
                 string imreBase64Data = Convert.ToBase64String(byteData);
                 string imgDataURL = string.Format("data:image/png;base64,{0}", imreBase64Data);
                 ViewBag.ImageData = imgDataURL;
-                Console.WriteLine(imgDataURL);
                 return View(sach);
             }
             else
@@ -62,6 +62,7 @@ namespace Library_Hutech.Controllers
             ViewBag.Muon = new SelectList(db.PhieuMuon, "ID", "NguoiMuon");
             ViewBag.TacGia = new SelectList(db.TacGia, "ID", "TenTacGia");
             ViewBag.ViTri = new SelectList(db.ViTri, "ID", "MaViTri");
+            Console.WriteLine(ViewBag);
             return View();
         }
 
@@ -70,20 +71,29 @@ namespace Library_Hutech.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,MaSach,TenSach,LoaiSach,NamXB,NXB,TacGia,ViTri,SoLuong,Muon,NgonNgu,TimeCreate,TimeUpdate")] Sach sach)
+        public ActionResult Upload(
+            [Bind(Include = "ID,MaSach,TenSach,LoaiSach,NamXB,NXB,TacGia,ViTri,SoLuong,Muon,NgonNgu,TimeCreate,TimeUpdate")] Sach sach,HttpPostedFileBase file)
         {
+            if (file != null && file.ContentLength > 0)
+            {
+                string fileName = Path.GetFileName(file.FileName);
+                string pictureFile = Path.Combine(Server.MapPath("~/img"),fileName);
+                file.SaveAs(pictureFile); //add picture folder img
+                string pathFileSaveDb = @"~/img/" + file.FileName;
+                sach.ImagePath = pictureFile;
+            }
             if (ModelState.IsValid)
             {
                 db.Sach.Add(sach);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             ViewBag.LoaiSach = new SelectList(db.LoaiSach, "ID", "MaLoaiSach", sach.LoaiSach);
             ViewBag.NXB = new SelectList(db.NXB, "ID", "MaNXB", sach.NXB);
             ViewBag.Muon = new SelectList(db.PhieuMuon, "ID", "MaMuon", sach.Muon);
             ViewBag.TacGia = new SelectList(db.TacGia, "ID", "MaTacGia", sach.TacGia);
             ViewBag.ViTri = new SelectList(db.ViTri, "ID", "MaViTri", sach.ViTri);
+            ViewBag.ImagePath = new SelectList(db.ViTri, "ID", "MaViTri", sach.ViTri);
             return View(sach);
         }
 
