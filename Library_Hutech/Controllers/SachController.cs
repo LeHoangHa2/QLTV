@@ -80,7 +80,7 @@ namespace Library_Hutech.Controllers
                 string pictureFile = Path.Combine(Server.MapPath("~/img"),fileName);
                 file.SaveAs(pictureFile); //add picture folder img
                 string pathFileSaveDb = @"~/img/" + file.FileName;
-                sach.ImagePath = pictureFile;
+                sach.ImagePath = pathFileSaveDb;
             }
             if (ModelState.IsValid)
             {
